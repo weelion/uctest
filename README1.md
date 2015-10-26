@@ -26,10 +26,9 @@
 #### **http返回header头部参数**
 |参数|类型|说明|
 |---|---|---|
-|Links（接口2-8会有该参数返回）|{<br>"next_page":"http://api.example.com/x?x=x",<br>"last_page":"http://api.example.com/x?x=x"<br>}|上一页，最后一页链接|
+|X-Links（接口2-8会有该参数返回）|{<br>"next_page":"http://api.example.com/x?x=x",<br>"last_page":"http://api.example.com/x?x=x"<br>}|上一页，最后一页链接|
 |X-RateLimit-Limit|int(5000)|API访问限制次数|
 |X-RateLimit-Remaining|int(4999)|访问剩余次数|
-|status|200|返回状态码|
 
 |status值|说明|
 |---|---|
